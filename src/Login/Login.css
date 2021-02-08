@@ -1,0 +1,30 @@
+.loginpage {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+
+  background-color: #f8f8f8;
+}
+.loginpage__container {
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.loginpage__container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
+.loginpage__container > button {
+  text-transform: inherit !important;
+  color: white;
+  background-color: #0a8d48 !important;
+  margin-top: 50px;
+}
+.loginpage__container > button:hover {
+  background-color: rgba(10, 110, 1, 0.356) !important;
+}
